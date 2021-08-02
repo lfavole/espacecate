@@ -12,7 +12,7 @@
         "type": "image/jpg"
     }],
     "name": "Espace caté",
-    "short_name": "Espace caté",
+    "short_name": "Espace KT",
     "start_url": "https://lfavole.epizy.com/espacecate/index.php",
     "scope": "https://lfavole.epizy.com/espacecate/"
 }
