@@ -2,7 +2,7 @@
     "background_color": "#ff9800",
     "theme_color": "#ff9800",
     "description": "Application pour l'espace administrateur.",
-    "display": "fullscreen",
+    "display": "standalone",
     "orientation": "any",
     "dir": "ltr",
     "lang": "fr",
