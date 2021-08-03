@@ -17,12 +17,6 @@
 	"scope": "https://lfavole.epizy.com/espacecate/",
 	"shortcuts": [
 		{
-			"name": "Page d'accueil",
-			"short_name": "Accueil",
-			"url": "https://lfavole.epizy.com/espacecate/index.php?pwa=1",
-			"description": "Accueil du site du caté"
-		},
-		{
 			"name": "Inscription",
 			"short_name": "Inscription",
 			"url": "https://lfavole.epizy.com/espacecate/inscription.php?pwa=1",
