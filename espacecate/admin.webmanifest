@@ -13,6 +13,32 @@
     }],
     "name": "Espace administrateur \u2013 Caté",
     "short_name": "Admin KT",
-    "start_url": "https://lfavole.epizy.com/espacecate/admin/index.php",
-    "scope": "https://lfavole.epizy.com/espacecate/admin/"
+    "start_url": "https://lfavole.epizy.com/espacecate/admin/index.php?pwa=1",
+    "scope": "https://lfavole.epizy.com/espacecate/admin/",
+	"shortcuts": [
+		{
+			"name": "Inscriptions caté et éveil à la foi",
+			"short_name": "Inscriptions",
+			"url": "https://lfavole.epizy.com/espacecate/admin/inscriptions.php?pwa=1",
+			"description": "Liste des inscriptions"
+		},
+		{
+			"name": "Dates importantes",
+			"short_name": "Dates",
+			"url": "https://lfavole.epizy.com/espacecate/admin/dates.php?pwa=1",
+			"description": "Dates importantes pour le caté et l'éveil à la foi"
+		},
+		{
+			"name": "Présences",
+			"short_name": "Présences",
+			"url": "https://lfavole.epizy.com/espacecate/admin/presences.php?pwa=1",
+			"description": "Liste des enfants présents ou absents à chaque rencontre"
+		},
+		{
+			"name": "Visites",
+			"short_name": "Visites",
+			"url": "https://lfavole.epizy.com/espacecate/admin/visites.php?pwa=1",
+			"description": "Nombre de visites sur le site"
+		}
+	]
 }
