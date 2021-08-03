@@ -1,18 +1,44 @@
 {
-    "background_color": "#ff9800",
-    "theme_color": "#ff9800",
-    "description": "Application pour l'espace caté.",
-    "display": "standalone",
-    "orientation": "any",
-    "dir": "ltr",
-    "lang": "fr",
-    "icons": [{
-        "src": "https://lfavole.epizy.com/espacecate/logo.jpg",
-        "sizes": "921x981",
-        "type": "image/jpg"
-    }],
-    "name": "Espace caté",
-    "short_name": "Espace KT",
-    "start_url": "https://lfavole.epizy.com/espacecate/index.php",
-    "scope": "https://lfavole.epizy.com/espacecate/"
+	"background_color": "#ff9800",
+	"theme_color": "#ff9800",
+	"description": "Application pour l'espace caté.",
+	"display": "standalone",
+	"orientation": "any",
+	"dir": "ltr",
+	"lang": "fr",
+	"icons": [{
+		"src": "https://lfavole.epizy.com/espacecate/logo.jpg",
+		"sizes": "921x981",
+		"type": "image/jpg"
+	}],
+	"name": "Espace caté",
+	"short_name": "Espace KT",
+	"start_url": "https://lfavole.epizy.com/espacecate/index.php?pwa=1",
+	"scope": "https://lfavole.epizy.com/espacecate/",
+	"shortcuts": [
+		{
+			"name": "Page d'accueil",
+			"short_name": "Accueil",
+			"url": "https://lfavole.epizy.com/espacecate/index.php?pwa=1",
+			"description": "Accueil du site du caté"
+		},
+		{
+			"name": "Inscription",
+			"short_name": "Inscription",
+			"url": "https://lfavole.epizy.com/espacecate/inscription.php?pwa=1",
+			"description": "Inscription caté et éveil à la foi"
+		},
+		{
+			"name": "Dates caté",
+			"short_name": "Dates KT",
+			"url": "https://lfavole.epizy.com/espacecate/dates_cate.php?pwa=1",
+			"description": "Dates importantes pour le catéchisme"
+		},
+		{
+			"name": "Dates éveil à la foi",
+			"short_name": "Dates EVF",
+			"url": "https://lfavole.epizy.com/espacecate/dates_evf.php?pwa=1",
+			"description": "Dates importantes pour l'éveil à la foi"
+		}
+	]
 }
