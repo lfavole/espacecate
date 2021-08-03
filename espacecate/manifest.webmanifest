@@ -13,25 +13,25 @@
 	}],
 	"name": "Espace caté",
 	"short_name": "Espace KT",
-	"start_url": "https://lfavole.epizy.com/espacecate/index.php?pwa=1",
+	"start_url": "https://lfavole.epizy.com/espacecate/index.php",
 	"scope": "https://lfavole.epizy.com/espacecate/",
 	"shortcuts": [
 		{
 			"name": "Inscription",
 			"short_name": "Inscription",
-			"url": "https://lfavole.epizy.com/espacecate/inscription.php?pwa=1",
+			"url": "https://lfavole.epizy.com/espacecate/inscription.php",
 			"description": "Inscription caté et éveil à la foi"
 		},
 		{
 			"name": "Dates caté",
 			"short_name": "Dates KT",
-			"url": "https://lfavole.epizy.com/espacecate/dates_cate.php?pwa=1",
+			"url": "https://lfavole.epizy.com/espacecate/dates_cate.php",
 			"description": "Dates importantes pour le catéchisme"
 		},
 		{
 			"name": "Dates éveil à la foi",
 			"short_name": "Dates EVF",
-			"url": "https://lfavole.epizy.com/espacecate/dates_evf.php?pwa=1",
+			"url": "https://lfavole.epizy.com/espacecate/dates_evf.php",
 			"description": "Dates importantes pour l'éveil à la foi"
 		}
 	]
