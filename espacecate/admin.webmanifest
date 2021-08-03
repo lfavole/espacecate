@@ -7,9 +7,9 @@
 	"dir": "ltr",
 	"lang": "fr",
 	"icons": [{
-		"src": "https://lfavole.epizy.com/espacecate/logo.jpg",
-		"sizes": "921x981",
-		"type": "image/jpg"
+		"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+		"sizes": "900x900",
+		"type": "image/x-icon"
 	}],
 	"name": "Espace administrateur \u2013 Caté",
 	"short_name": "Admin KT",
@@ -20,25 +20,45 @@
 			"name": "Inscriptions caté et éveil à la foi",
 			"short_name": "Inscriptions",
 			"url": "https://lfavole.epizy.com/espacecate/admin/inscriptions.php",
-			"description": "Liste des inscriptions"
+			"description": "Liste des inscriptions",
+			"icons": [{
+				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+				"sizes": "900x900",
+				"type": "image/x-icon"
+			}]
 		},
 		{
 			"name": "Dates importantes",
 			"short_name": "Dates",
 			"url": "https://lfavole.epizy.com/espacecate/admin/dates.php",
-			"description": "Dates importantes pour le caté et l'éveil à la foi"
+			"description": "Dates importantes pour le caté et l'éveil à la foi",
+			"icons": [{
+				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+				"sizes": "900x900",
+				"type": "image/x-icon"
+			}]
 		},
 		{
 			"name": "Présences",
 			"short_name": "Présences",
 			"url": "https://lfavole.epizy.com/espacecate/admin/presences.php",
-			"description": "Liste des enfants présents ou absents à chaque rencontre"
+			"description": "Liste des enfants présents ou absents à chaque rencontre",
+			"icons": [{
+				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+				"sizes": "900x900",
+				"type": "image/x-icon"
+			}]
 		},
 		{
 			"name": "Visites",
 			"short_name": "Visites",
 			"url": "https://lfavole.epizy.com/espacecate/admin/visites.php",
-			"description": "Nombre de visites sur le site"
+			"description": "Nombre de visites sur le site",
+			"icons": [{
+				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+				"sizes": "900x900",
+				"type": "image/x-icon"
+			}]
 		}
 	]
 }
