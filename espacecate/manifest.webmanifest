@@ -7,9 +7,9 @@
 	"dir": "ltr",
 	"lang": "fr",
 	"icons": [{
-		"src": "https://lfavole.epizy.com/espacecate/logo.jpg",
-		"sizes": "921x981",
-		"type": "image/jpg"
+		"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+		"sizes": "900x900",
+		"type": "image/x-icon"
 	}],
 	"name": "Espace caté",
 	"short_name": "Espace KT",
@@ -20,19 +20,34 @@
 			"name": "Inscription",
 			"short_name": "Inscription",
 			"url": "https://lfavole.epizy.com/espacecate/inscription.php",
-			"description": "Inscription caté et éveil à la foi"
+			"description": "Inscription caté et éveil à la foi",
+			"icons": [{
+				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+				"sizes": "900x900",
+				"type": "image/x-icon"
+			}]
 		},
 		{
 			"name": "Dates caté",
 			"short_name": "Dates KT",
 			"url": "https://lfavole.epizy.com/espacecate/dates_cate.php",
-			"description": "Dates importantes pour le catéchisme"
+			"description": "Dates importantes pour le catéchisme",
+			"icons": [{
+				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+				"sizes": "900x900",
+				"type": "image/x-icon"
+			}]
 		},
 		{
 			"name": "Dates éveil à la foi",
 			"short_name": "Dates EVF",
 			"url": "https://lfavole.epizy.com/espacecate/dates_evf.php",
-			"description": "Dates importantes pour l'éveil à la foi"
+			"description": "Dates importantes pour l'éveil à la foi",
+			"icons": [{
+				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+				"sizes": "900x900",
+				"type": "image/x-icon"
+			}]
 		}
 	]
 }
