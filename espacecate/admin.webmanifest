@@ -6,11 +6,18 @@
 	"orientation": "any",
 	"dir": "ltr",
 	"lang": "fr",
-	"icons": [{
-		"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-		"sizes": "900x900",
-		"type": "image/x-icon"
-	}],
+	"icons": [
+		{
+			"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+			"sizes": "256x256",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "https://lfavole.epizy.com/espacecate/favicon.png",
+			"sizes": "900x900",
+			"type": "image/png"
+		}
+	],
 	"name": "Espace administrateur \u2013 Caté",
 	"short_name": "Admin KT",
 	"start_url": "https://lfavole.epizy.com/espacecate/admin/index.php",
@@ -21,44 +28,72 @@
 			"short_name": "Inscriptions",
 			"url": "https://lfavole.epizy.com/espacecate/admin/inscriptions.php",
 			"description": "Liste des inscriptions",
-			"icons": [{
-				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-				"sizes": "900x900",
-				"type": "image/x-icon"
-			}]
+			"icons": [
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+					"sizes": "256x256",
+					"type": "image/x-icon"
+				},
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
+					"sizes": "900x900",
+					"type": "image/png"
+				}
+			 ]
 		},
 		{
 			"name": "Dates importantes",
 			"short_name": "Dates",
 			"url": "https://lfavole.epizy.com/espacecate/admin/dates.php",
 			"description": "Dates importantes pour le caté et l'éveil à la foi",
-			"icons": [{
-				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-				"sizes": "900x900",
-				"type": "image/x-icon"
-			}]
+			"icons": [
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+					"sizes": "256x256",
+					"type": "image/x-icon"
+				},
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
+					"sizes": "900x900",
+					"type": "image/png"
+				}
+			 ]
 		},
 		{
 			"name": "Présences",
 			"short_name": "Présences",
 			"url": "https://lfavole.epizy.com/espacecate/admin/presences.php",
 			"description": "Liste des enfants présents ou absents à chaque rencontre",
-			"icons": [{
-				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-				"sizes": "900x900",
-				"type": "image/x-icon"
-			}]
+			"icons": [
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+					"sizes": "256x256",
+					"type": "image/x-icon"
+				},
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
+					"sizes": "900x900",
+					"type": "image/png"
+				}
+			 ]
 		},
 		{
 			"name": "Visites",
 			"short_name": "Visites",
 			"url": "https://lfavole.epizy.com/espacecate/admin/visites.php",
 			"description": "Nombre de visites sur le site",
-			"icons": [{
-				"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-				"sizes": "900x900",
-				"type": "image/x-icon"
-			}]
+			"icons": [
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
+					"sizes": "256x256",
+					"type": "image/x-icon"
+				},
+				{
+					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
+					"sizes": "900x900",
+					"type": "image/png"
+				}
+			 ]
 		}
 	]
 }
