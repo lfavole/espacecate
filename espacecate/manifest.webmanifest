@@ -48,14 +48,9 @@
 			"description": "Dates importantes pour le catéchisme",
 			"icons": [
 				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-					"sizes": "256x256",
-					"type": "image/x-icon"
-				},
-				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
-					"sizes": "900x900",
-					"type": "image/png"
+					"src": "calendar-day.svg",
+					"sizes": "448x512",
+					"type": "image/svg+xml"
 				}
 			]
 		},
