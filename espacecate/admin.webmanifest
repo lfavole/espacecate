@@ -30,13 +30,8 @@
 			"description": "Liste des inscriptions",
 			"icons": [
 				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-					"sizes": "256x256",
-					"type": "image/x-icon"
-				},
-				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
-					"sizes": "900x900",
+					"src": "user.png",
+					"sizes": "512x512",
 					"type": "image/png"
 				}
 			]
@@ -48,13 +43,8 @@
 			"description": "Dates importantes pour le caté et l'éveil à la foi",
 			"icons": [
 				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-					"sizes": "256x256",
-					"type": "image/x-icon"
-				},
-				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
-					"sizes": "900x900",
+					"src": "calendar-day.png",
+					"sizes": "512x512",
 					"type": "image/png"
 				}
 			]
@@ -66,13 +56,8 @@
 			"description": "Liste des enfants présents ou absents à chaque rencontre",
 			"icons": [
 				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-					"sizes": "256x256",
-					"type": "image/x-icon"
-				},
-				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
-					"sizes": "900x900",
+					"src": "user-check.png",
+					"sizes": "640x640",
 					"type": "image/png"
 				}
 			]
@@ -84,13 +69,8 @@
 			"description": "Nombre de visites sur le site",
 			"icons": [
 				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.ico",
-					"sizes": "256x256",
-					"type": "image/x-icon"
-				},
-				{
-					"src": "https://lfavole.epizy.com/espacecate/favicon.png",
-					"sizes": "900x900",
+					"src": "user.png",
+					"sizes": "512x512",
 					"type": "image/png"
 				}
 			]
