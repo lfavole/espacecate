@@ -30,6 +30,11 @@
 			"description": "Inscription caté et éveil à la foi",
 			"icons": [
 				{
+					"src": "user-plus.png",
+					"sizes": "640x512",
+					"type": "image/png"
+				},
+				{
 					"src": "user-plus.svg",
 					"sizes": "188x150",
 					"type": "image/svg+xml"
@@ -43,6 +48,11 @@
 			"description": "Dates importantes pour le catéchisme",
 			"icons": [
 				{
+					"src": "calendar-day.png",
+					"sizes": "448x512",
+					"type": "image/png"
+				},
+				{
 					"src": "calendar-day.svg",
 					"sizes": "131x150",
 					"type": "image/svg+xml"
@@ -55,6 +65,11 @@
 			"url": "https://lfavole.epizy.com/espacecate/dates_evf.php",
 			"description": "Dates importantes pour l'éveil à la foi",
 			"icons": [
+				{
+					"src": "calendar-day.png",
+					"sizes": "448x512",
+					"type": "image/png"
+				},
 				{
 					"src": "calendar-day.svg",
 					"sizes": "131x150",
