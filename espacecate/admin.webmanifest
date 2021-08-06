@@ -30,7 +30,7 @@
 	],
 	"name": "Espace administrateur \u2013 Caté",
 	"short_name": "Admin KT",
-	"start_url": "https://lfavole.epizy.com/espacecate-admin/index.php?pwa=1",
+	"start_url": "https://lfavole.epizy.com/espacecate-admin/index.php",
 	"scope": "https://lfavole.epizy.com/espacecate-admin/",
 	"shortcuts": [
 		{
