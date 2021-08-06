@@ -31,12 +31,12 @@
 			"icons": [
 				{
 					"src": "user-plus.png",
-					"sizes": "640x512",
+					"sizes": "640x640",
 					"type": "image/png"
 				},
 				{
 					"src": "user-plus.svg",
-					"sizes": "188x150",
+					"sizes": "188x188",
 					"type": "image/svg+xml"
 				}
 			]
@@ -49,12 +49,12 @@
 			"icons": [
 				{
 					"src": "calendar-day.png",
-					"sizes": "448x512",
+					"sizes": "512x512",
 					"type": "image/png"
 				},
 				{
 					"src": "calendar-day.svg",
-					"sizes": "131x150",
+					"sizes": "150x150",
 					"type": "image/svg+xml"
 				}
 			]
@@ -67,12 +67,12 @@
 			"icons": [
 				{
 					"src": "calendar-day.png",
-					"sizes": "448x512",
+					"sizes": "512x512",
 					"type": "image/png"
 				},
 				{
 					"src": "calendar-day.svg",
-					"sizes": "131x150",
+					"sizes": "150x150",
 					"type": "image/svg+xml"
 				}
 			]
