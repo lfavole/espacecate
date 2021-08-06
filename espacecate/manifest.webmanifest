@@ -33,11 +33,6 @@
 					"src": "user-plus.png",
 					"sizes": "640x640",
 					"type": "image/png"
-				},
-				{
-					"src": "user-plus.svg",
-					"sizes": "188x188",
-					"type": "image/svg+xml"
 				}
 			]
 		},
@@ -51,11 +46,6 @@
 					"src": "calendar-day.png",
 					"sizes": "512x512",
 					"type": "image/png"
-				},
-				{
-					"src": "calendar-day.svg",
-					"sizes": "150x150",
-					"type": "image/svg+xml"
 				}
 			]
 		},
@@ -69,11 +59,6 @@
 					"src": "calendar-day.png",
 					"sizes": "512x512",
 					"type": "image/png"
-				},
-				{
-					"src": "calendar-day.svg",
-					"sizes": "150x150",
-					"type": "image/svg+xml"
 				}
 			]
 		}
