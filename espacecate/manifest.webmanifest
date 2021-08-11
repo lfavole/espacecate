@@ -1,6 +1,6 @@
 {
-	"background_color": "#ff9800",
-	"theme_color": "#ff9800",
+	"background_color": "#ffaa00",
+	"theme_color": "#ffaa00",
 	"description": "Application pour l'espace caté.",
 	"display": "standalone",
 	"orientation": "any",
