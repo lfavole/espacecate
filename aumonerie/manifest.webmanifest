@@ -1,0 +1,63 @@
+{
+	"background_color": "#ffaa00",
+	"theme_color": "#ffaa00",
+	"description": "Application pour l'espace aumônerie.",
+	"display": "standalone",
+	"orientation": "any",
+	"dir": "ltr",
+	"lang": "fr",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "256x256",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "favicon.png",
+			"sizes": "2482x2482",
+			"type": "image/png"
+		},
+		{
+			"src": "https://cate.epizy.com/aumonerie/favicon.ico",
+			"sizes": "256x256",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "https://cate.epizy.com/aumonerie/favicon.png",
+			"sizes": "2482x2482",
+			"type": "image/png"
+		}
+	],
+	"name": "Espace aumônerie",
+	"short_name": "Aumônerie",
+	"start_url": "https://cate.epizy.com/aumonerie/index.php",
+	"scope": "https://cate.epizy.com/aumonerie/",
+	"shortcuts": [
+		{
+			"name": "Inscription",
+			"short_name": "Inscription",
+			"url": "https://cate.epizy.com/aumonerie/inscription.php",
+			"description": "Inscription à l'aumônerie",
+			"icons": [
+				{
+					"src": "user-plus.png",
+					"sizes": "640x640",
+					"type": "image/png"
+				}
+			]
+		},
+		{
+			"name": "Dates",
+			"short_name": "Dates",
+			"url": "https://cate.epizy.com/aumonerie/dates.php",
+			"description": "Dates importantes pour l'aumônerie",
+			"icons": [
+				{
+					"src": "calendar-day.png",
+					"sizes": "512x512",
+					"type": "image/png"
+				}
+			]
+		}
+	]
+}
