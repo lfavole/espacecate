@@ -1,0 +1,89 @@
+{
+	"background_color": "#ffaa00",
+	"theme_color": "#ffaa00",
+	"description": "Application pour l'espace administrateur.",
+	"display": "standalone",
+	"orientation": "any",
+	"dir": "ltr",
+	"lang": "fr",
+	"icons": [
+		{
+			"src": "favicon.ico",
+			"sizes": "256x256",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "favicon.png",
+			"sizes": "2482x2482",
+			"type": "image/png"
+		},
+		{
+			"src": "https://cate.epizy.com/aumonerie/favicon.ico",
+			"sizes": "256x256",
+			"type": "image/x-icon"
+		},
+		{
+			"src": "https://cate.epizy.com/aumonerie/favicon.png",
+			"sizes": "2482x2482",
+			"type": "image/png"
+		}
+	],
+	"name": "Espace administrateur \u2013 Aumônerie",
+	"short_name": "Admin aumônerie",
+	"start_url": "https://cate.epizy.com/aumonerie-admin/index.php",
+	"scope": "https://cate.epizy.com/aumonerie-admin/",
+	"shortcuts": [
+		{
+			"name": "Inscriptions aumônerie",
+			"short_name": "Inscriptions",
+			"url": "https://cate.epizy.com/aumonerie-admin/inscriptions.php",
+			"description": "Liste des inscriptions",
+			"icons": [
+				{
+					"src": "user.png",
+					"sizes": "512x512",
+					"type": "image/png"
+				}
+			]
+		},
+		{
+			"name": "Dates importantes",
+			"short_name": "Dates",
+			"url": "https://cate.epizy.com/aumonerie-admin/dates.php",
+			"description": "Dates importantes pour l'aumônerie",
+			"icons": [
+				{
+					"src": "calendar-day.png",
+					"sizes": "512x512",
+					"type": "image/png"
+				}
+			]
+		},
+		{
+			"name": "Présences",
+			"short_name": "Présences",
+			"url": "https://cate.epizy.com/aumonerie-admin/presences.php",
+			"description": "Liste des enfants présents ou absents à chaque rencontre",
+			"icons": [
+				{
+					"src": "user-check.png",
+					"sizes": "640x640",
+					"type": "image/png"
+				}
+			]
+		},
+		{
+			"name": "Visites",
+			"short_name": "Visites",
+			"url": "https://cate.epizy.com/aumonerie-admin/visites.php",
+			"description": "Nombre de visites sur le site",
+			"icons": [
+				{
+					"src": "user.png",
+					"sizes": "512x512",
+					"type": "image/png"
+				}
+			]
+		}
+	]
+}
