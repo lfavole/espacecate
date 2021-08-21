@@ -43,7 +43,7 @@ Avec 2 tirets du 8 :
 __Texte en gras__
 ```
 
-Résultat : **Texte en gras**
+**Résultat :** **Texte en gras**
 
 ### Italique
 
@@ -58,7 +58,7 @@ Avec 1 tiret du 8 :
 _Texte en italique_
 ```
 
-Résultat : *Texte en italique*
+**Résultat :** *Texte en italique*
 
 ### Gras et italique
 
@@ -74,7 +74,7 @@ Avec 3 tirets du 8 :
 ___Texte en gras et italique___
 ```
 
-Résultat : _**Texte en gras et italique**_
+**Résultat :*** _**Texte en gras et italique**_
 
 ### Texte souligné
 
@@ -82,21 +82,17 @@ Résultat : _**Texte en gras et italique**_
 <u>Texte souligné</u>
 ```
 
-**Résultat :**
-
-<span style="text-decoration:underline">Texte souligné</span>
+**Résultat :** <span style="text-decoration:underline">Texte souligné</span>
 
 ### Texte barré
 
-Entourer le texte de 2 "tildes" (Alt Gr + 2) :
+Entourer le texte de 2 *tildes* (Alt Gr + 2) :
 
 ```markdown
 ~~Texte barré~~
 ```
 
-**Résultat :**
-
-~~Texte barré~~
+**Résultat :** ~~Texte barré~~
 
 ## Titres
 
