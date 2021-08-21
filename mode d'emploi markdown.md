@@ -61,6 +61,14 @@ Titre 2
 ----------
 ```
 
+**Résultat :**
+
+Titre 1 (titre principal de la page)
+==========
+
+Titre 2
+----------
+
 ou :
 
 ```markdown
@@ -72,6 +80,16 @@ ou :
 
 ###### Titre 6
 ```
+
+**Résultat :**
+
+# Titre 1
+
+## Titre 2
+
+...
+
+###### Titre 6
 
 ## Listes
 
@@ -96,6 +114,11 @@ ou :
 - Liste
 ```
 
+**Résultat :**
+
+- Liste
+- Liste
+
 ### Listes numérotées
 
 ```markdown
@@ -103,6 +126,12 @@ ou :
 2. Liste
 3. Liste
 ```
+
+**Résultat :**
+
+1. Liste
+2. Liste
+3. Liste
 
 ### Sous-listes
 
@@ -123,16 +152,26 @@ ou :
 ```markdown
 > Citation
 > Citation
+> 
+> Paragraphe dans la citation (laisser une ligne vide, comme pour les paragraphes normaux)
+> 
 > > Réponse
 > > Réponse
+> > 
+> > Paragraphe dans la réponse
 ```
 
 **Résultat :**
 
+> Citation  
 > Citation
-> Citation
+> 
+> Paragraphe dans la citation
+> 
+> > Réponse  
 > > Réponse
-> > Réponse
+> > 
+> > Paragraphe dans la réponse
 
 ## Liens
 
@@ -147,7 +186,7 @@ ou :
 
 **Résultat :**
 
-[Inscription](https://cate.epizy.com/espacecate/inscription.php)
+Inscription [au caté](https://cate.epizy.com/espacecate/inscription.php) / [à l'aumônerie](https://cate.epizy.com/aumonerie/inscription.php).
 
 ## Images
 
@@ -163,17 +202,23 @@ ou :
 
 **Résultat :**
 
+Logo du site du caté :
 ![Logo du site du caté](https://cate.epizy.com/espacecate/favicon.png)
+
+Logo du site de l'aumônerie :
+![Logo du site de l'aumônerie](https://cate.epizy.com/aumonerie/favicon.png)
 
 ## Barre horizontale
 
 ```markdown
+(avec des étoiles)
 *****
 ```
 
 ou :
 
 ```markdown
+(avec des tirets)
 -----
 ```
 
