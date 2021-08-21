@@ -4,9 +4,15 @@
 
 ```markdown
 Paragraphe 1
-
+(laisser une ligne vide)
 Paragraphe 2
 ```
+
+**Résultat :**
+
+Paragraphe 1
+
+Paragraphe 2
 
 ### Sauts de ligne
 
@@ -14,6 +20,11 @@ Paragraphe 2
 Texte
 Texte
 ```
+
+**Résultat :**
+
+Texte
+Texte
 
 ## Gras, italique
 
@@ -51,19 +62,42 @@ ou :
 ___Texte en gras et italique___ avec 3 tirets du 8
 ```
 
+### Texte souligné
+
+```markdown
+<u>Texte souligné</u>
+```
+
+**Résultat :**
+
+<span style="text-decoration:underline">Texte souligné</span>
+
+### Texte barré
+
+```markdown
+~~Texte barré~~
+Entourer le texte de 2 "tildes" (Alt Gr + 2)
+```
+
+**Résultat :**
+
+~~Texte barré~~
+
 ## Titres
 
 ```markdown
 Titre 1 (titre principal de la page)
 ==========
+À souligner avec des symboles égal
 
 Titre 2
 ----------
+À souligner avec des tirets
 ```
 
 **Résultat :**
 
-Titre 1 (titre principal de la page)
+Titre 1
 ==========
 
 Titre 2
@@ -72,13 +106,15 @@ Titre 2
 ou :
 
 ```markdown
-# Titre 1
+# Titre 1 (1 dièse)
 
-## Titre 2
+## Titre 2 (2 dièses)
 
 ...
 
-###### Titre 6
+###### Titre 6 (6 dièses)
+
+## On peut aussi rajouter des dièses à la fin → ##
 ```
 
 **Résultat :**
@@ -139,6 +175,11 @@ ou :
 * Liste
 	* Sous-liste
 		* Sous sous-liste...
+	* Sous-liste
+	* Sous-liste
+* Liste
+* Liste
+* Liste
 ```
 
 **Résultat :**
@@ -146,6 +187,11 @@ ou :
 * Liste
 	* Sous-liste
 		* Sous sous-liste...
+	* Sous-liste
+	* Sous-liste
+* Liste
+* Liste
+* Liste
 
 ## Citations
 
