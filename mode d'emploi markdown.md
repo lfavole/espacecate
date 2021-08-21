@@ -2,9 +2,11 @@
 
 ## Paragraphes
 
+Il faut laisser une ligne vide entre les paragraphes.
+
 ```markdown
 Paragraphe 1
-(laisser une ligne vide)
+(Laisser une ligne vide)
 Paragraphe 2
 ```
 
@@ -18,14 +20,16 @@ On peut aussi faire des paragraphes dans les *listes* et dans les *citations*.
 
 ### Sauts de ligne
 
+Il faut sauter des lignes en appuyant sur `Entrée`.
+
 ```markdown
-Texte  
+Texte
 Texte
 ```
 
 **Résultat :**
 
-Texte
+Texte  
 Texte
 
 ## Gras, italique
