@@ -112,6 +112,12 @@ ou :
 		* Sous sous-liste...
 ```
 
+**Résultat :**
+
+* Liste
+	* Sous-liste
+		* Sous sous-liste...
+
 ## Citations
 
 ```markdown
@@ -120,6 +126,13 @@ ou :
 > > Réponse
 > > Réponse
 ```
+
+**Résultat :**
+
+> Citation
+> Citation
+> > Réponse
+> > Réponse
 
 ## Liens
 
@@ -131,6 +144,10 @@ ou :
 ```markdown
 [Inscription](https://cate.epizy.com/espacecate/inscription.php)
 ```
+
+**Résultat :**
+
+[Inscription](https://cate.epizy.com/espacecate/inscription.php)
 
 ## Images
 
@@ -144,6 +161,10 @@ ou :
 ![Logo du site du caté](https://cate.epizy.com/espacecate/favicon.png)
 ```
 
+**Résultat :**
+
+![Logo du site du caté](https://cate.epizy.com/espacecate/favicon.png)
+
 ## Barre horizontale
 
 ```markdown
@@ -155,3 +176,7 @@ ou :
 ```markdown
 -----
 ```
+
+**Résultat :**
+
+-----
