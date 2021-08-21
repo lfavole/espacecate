@@ -14,10 +14,12 @@ Paragraphe 1
 
 Paragraphe 2
 
+On peut aussi faire des paragraphes dans les *listes* et dans les *citations*.
+
 ### Sauts de ligne
 
 ```markdown
-Texte
+Texte  
 Texte
 ```
 
@@ -30,37 +32,49 @@ Texte
 
 ### Gras
 
-```markdown
-**Texte en gras** avec 2 étoiles
-```
-ou :
+Avec 2 étoiles :
 
 ```markdown
-__Texte en gras__ avec 2 tirets du 8
+**Texte en gras**
 ```
+Avec 2 tirets du 8 :
+
+```markdown
+__Texte en gras__
+```
+
+Résultat : **Texte en gras**
 
 ### Italique
 
-```markdown
-*Texte en italique* avec 1 étoile
-```
-ou :
+Avec 1 étoile :
 
 ```markdown
-_Texte en italique_ avec 1 tiret du 8
+*Texte en italique*
 ```
+Avec 1 tiret du 8 :
+
+```markdown
+_Texte en italique_
+```
+
+Résultat : *Texte en italique*
 
 ### Gras et italique
 
-```markdown
-***Texte en gras et italique*** avec 3 étoiles
-```
-
-ou :
+Avec 3 étoiles :
 
 ```markdown
-___Texte en gras et italique___ avec 3 tirets du 8
+***Texte en gras et italique***
 ```
+
+Avec 3 tirets du 8 :
+
+```markdown
+___Texte en gras et italique___
+```
+
+Résultat : _**Texte en gras et italique**_
 
 ### Texte souligné
 
@@ -74,9 +88,10 @@ ___Texte en gras et italique___ avec 3 tirets du 8
 
 ### Texte barré
 
+Entourer le texte de 2 "tildes" (Alt Gr + 2) :
+
 ```markdown
 ~~Texte barré~~
-Entourer le texte de 2 "tildes" (Alt Gr + 2)
 ```
 
 **Résultat :**
@@ -88,12 +103,14 @@ Entourer le texte de 2 "tildes" (Alt Gr + 2)
 ```markdown
 Titre 1 (titre principal de la page)
 ==========
-À souligner avec des symboles égal
+```
+À souligner avec des symboles *égal*
 
+```markdown
 Titre 2
 ----------
-À souligner avec des tirets
 ```
+À souligner avec des tirets
 
 **Résultat :**
 
@@ -103,7 +120,7 @@ Titre 1
 Titre 2
 ----------
 
-ou :
+On peut aussi écrire :
 
 ```markdown
 # Titre 1 (1 dièse)
@@ -125,25 +142,27 @@ ou :
 
 ...
 
-###### Titre 6
+###### Titre 6 (tout petit !!)
 
 ## Listes
 
 ### Listes non numérotées
 
+Avec des étoiles :
+
 ```markdown
 * Liste
 * Liste
 ```
 
-ou :
+Avec des plus :
 
 ```markdown
 + Liste
 + Liste
 ```
 
-ou :
+Avec des tirets :
 
 ```markdown
 - Liste
@@ -156,6 +175,8 @@ ou :
 - Liste
 
 ### Listes numérotées
+
+Il faut numéroter les éléments.
 
 ```markdown
 1. Liste
@@ -173,11 +194,18 @@ ou :
 
 ```markdown
 * Liste
+* 
+* Paragraphe dans la liste
+* 
 	* Sous-liste
 		* Sous sous-liste...
+		* 
+		* Paragraphe 1 dans la sous sous-liste
+		* 
+		* Paragraphe 2 dans la sous sous-liste
+	* Retour à la sous-liste
 	* Sous-liste
-	* Sous-liste
-* Liste
+* Retour à la liste
 * Liste
 * Liste
 ```
@@ -185,11 +213,18 @@ ou :
 **Résultat :**
 
 * Liste
+* 
+* Paragraphe dans la liste
+* 
 	* Sous-liste
 		* Sous sous-liste...
+		* 
+		* Paragraphe 1 dans la sous sous-liste
+		* 
+		* Paragraphe 2 dans la sous sous-liste
+	* Retour à la sous-liste
 	* Sous-liste
-	* Sous-liste
-* Liste
+* Retour à la liste
 * Liste
 * Liste
 
@@ -199,7 +234,7 @@ ou :
 > Citation
 > Citation
 > 
-> Paragraphe dans la citation (laisser une ligne vide, comme pour les paragraphes normaux)
+> Paragraphe dans la citation
 > 
 > > Réponse
 > > Réponse
@@ -221,8 +256,21 @@ ou :
 
 ## Liens
 
+Les liens sont reconnus automatiquement et deviennent cliquables :
 ```markdown
-[Texte du lien](adresse de l'image)
+- https://cate.epizy.com/espacecate
+- https://cate.epizy.com/aumonerie
+```
+
+**Résultat :**
+
+- https://cate.epizy.com/espacecate
+- https://cate.epizy.com/aumonerie
+
+Pour changer le texte du lien, il faut écrire :
+
+```markdown
+[Texte du lien](adresse du lien)
 ```
 **Exemple :**
 
@@ -234,6 +282,17 @@ ou :
 
 Inscription [au caté](https://cate.epizy.com/espacecate/inscription.php) / [à l'aumônerie](https://cate.epizy.com/aumonerie/inscription.php).
 
+### Adresses mail
+
+Mettre l'adresse mail entre les symboles `<` (plus petit que) et `>` (plus grand que) :
+```markdown
+<laurentfavole03@gmail.com>
+```
+
+**Résultat :**
+
+Mon adresse mail : <laurentfavole03@gmail.com>
+
 ## Images
 
 ```markdown
@@ -243,7 +302,11 @@ Inscription [au caté](https://cate.epizy.com/espacecate/inscription.php) / [à 
 **Exemple :**
 
 ```markdown
+Logo du site du caté :
 ![Logo du site du caté](https://cate.epizy.com/espacecate/favicon.png)
+
+Logo du site de l'aumônerie :
+![Logo du site de l'aumônerie](https://cate.epizy.com/aumonerie/favicon.png)
 ```
 
 **Résultat :**
@@ -256,15 +319,15 @@ Logo du site de l'aumônerie :
 
 ## Barre horizontale
 
+Avec des étoiles :
+
 ```markdown
-(avec des étoiles)
 *****
 ```
 
-ou :
+Avec des tirets :
 
 ```markdown
-(avec des tirets)
 -----
 ```
 
