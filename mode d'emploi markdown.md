@@ -43,7 +43,7 @@ Avec 2 tirets du 8 :
 __Texte en gras__
 ```
 
-**Résultat :** **Texte en gras**
+**Résultat : Texte en gras**
 
 ### Italique
 
@@ -74,7 +74,7 @@ Avec 3 tirets du 8 :
 ___Texte en gras et italique___
 ```
 
-**Résultat :*** _**Texte en gras et italique**_
+**Résultat :** _**Texte en gras et italique**_
 
 ### Texte souligné
 
@@ -96,17 +96,17 @@ Entourer le texte de 2 *tildes* (Alt Gr + 2) :
 
 ## Titres
 
+Titre 1 (titre principal de la page), à souligner avec des symboles *égal* :
 ```markdown
-Titre 1 (titre principal de la page)
+Titre 1
 ==========
 ```
-À souligner avec des symboles *égal*
 
+Titre 2, à souligner avec des tirets :
 ```markdown
 Titre 2
 ----------
 ```
-À souligner avec des tirets
 
 **Résultat :**
 
@@ -190,17 +190,21 @@ Il faut numéroter les éléments.
 
 ```markdown
 * Liste
-* 
+
 * Paragraphe dans la liste
-* 
+(Ne pas mettre d'étoiles pour les paragraphes)
 	* Sous-liste
 		* Sous sous-liste...
-		* 
+
 		* Paragraphe 1 dans la sous sous-liste
-		* 
+
 		* Paragraphe 2 dans la sous sous-liste
 	* Retour à la sous-liste
 	* Sous-liste
+
+	1. Liste numérotée
+	2. Liste numérotée
+	3. Liste numérotée
 * Retour à la liste
 * Liste
 * Liste
@@ -209,33 +213,44 @@ Il faut numéroter les éléments.
 **Résultat :**
 
 * Liste
-* 
+
 * Paragraphe dans la liste
-* 
+
 	* Sous-liste
 		* Sous sous-liste...
-		* 
+
 		* Paragraphe 1 dans la sous sous-liste
-		* 
+
 		* Paragraphe 2 dans la sous sous-liste
 	* Retour à la sous-liste
 	* Sous-liste
+
+	1. Liste numérotée
+	2. Liste numérotée
+	3. Liste numérotée
 * Retour à la liste
 * Liste
 * Liste
 
 ## Citations
 
+Il faut mettre un chevron (`>`) au début de chaque ligne.
+
 ```markdown
-> Citation
+> Citation  
 > Citation
 > 
 > Paragraphe dans la citation
-> 
-> > Réponse
+> (Contrairement aux listes, il faut laisser les chevrons même sur les lignes vides.)
+> > Réponse  
 > > Réponse
 > > 
 > > Paragraphe dans la réponse
+> > 
+> ## Titre 2 dans la citation
+> 
+> - Liste dans la citation
+> - Liste dans la citation
 ```
 
 **Résultat :**
@@ -249,6 +264,11 @@ Il faut numéroter les éléments.
 > > Réponse
 > > 
 > > Paragraphe dans la réponse
+> > 
+> ## Titre 2 dans la citation
+> 
+> - Liste dans la citation
+> - Liste dans la citation
 
 ## Liens
 
