@@ -1,0 +1,39 @@
+{
+	"background_color": "#44aaee",
+	"description": "Application pour le calendrier de l'Avent.",
+	"display": "standalone",
+	"icons": [
+		{
+			"src": "favicon.png",
+			"sizes": "900x900",
+			"type": "image/png"
+		},
+		{
+			"src": "favicon.ico",
+			"sizes": "256x256",
+			"type": "image/x-icon"
+		}
+	],
+	"name": "Calendrier de l'Avent",
+	"short_name": "Calendrier Avent",
+	"start_url": "/calendrier-avent/index.php",
+	"shortcuts": [
+		{
+			"name": "Aujourd'hui",
+			"description": "Aujourd'hui",
+			"url": "/calendrier-avent/index.php?j=ajd",
+			"icons": [
+				{
+					"src": "favicon.png",
+					"sizes": "900x900",
+					"type": "image/png"
+				},
+				{
+					"src": "favicon.ico",
+					"sizes": "256x256",
+					"type": "image/x-icon"
+				}
+			]
+		}
+	]
+}
